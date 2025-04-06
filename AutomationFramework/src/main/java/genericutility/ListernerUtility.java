@@ -15,7 +15,7 @@ public class ListernerUtility extends BaseClass implements ITestListener{
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		extReport.createTest(result.getName());
+		test=extReport.createTest(result.getName());
 		test.log(Status.INFO, "Test execution started");
 	}
 
