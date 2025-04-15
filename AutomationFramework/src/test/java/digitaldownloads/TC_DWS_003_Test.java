@@ -9,5 +9,6 @@ public class TC_DWS_003_Test {
 	public void main()
 	{
 		Reporter.log("Code changes done");
+		Reporter.log("Code changes done");
 	}
 }
