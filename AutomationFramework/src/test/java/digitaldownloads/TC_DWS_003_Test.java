@@ -10,5 +10,6 @@ public class TC_DWS_003_Test {
 	{
 		Reporter.log("Code changes done");
 		Reporter.log("Code changes done");
+		Reporter.log("Code changes done");
 	}
 }
